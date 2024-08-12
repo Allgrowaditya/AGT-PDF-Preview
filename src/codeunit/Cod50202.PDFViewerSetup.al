@@ -1,7 +1,7 @@
 codeunit 50202 PDFViewerSetup
 {
     var
-        PDFViewerUrlTxt: Label 'https://bcpdfviewer.z6.web.core.windows.net/web/viewer.html?file=', Locked = true;
+        PDFViewerUrlTxt: Label 'https://agtstaticwebsite.z13.web.core.windows.net/web/viewer.html?file=', Locked = true;
 
     procedure GetPdfViewerUrl() Url: Text
     begin
